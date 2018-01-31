@@ -6,7 +6,7 @@
 # 						Contributor: M Rawash <mrawash@gmail.com>
 
 pkgname=xf86-input-wacom
-pkgver=0.35.0
+pkgver=0.36.0
 pkgrel=2
 pkgdesc="X.Org Wacom tablet driver"
 arch=(x86_64)
@@ -17,7 +17,7 @@ makedepends=('xorg-server-devel' 'X-ABI-XINPUT_VERSION=24.1' 'resourceproto' 'sc
 conflicts=('xorg-server<1.19' 'X-ABI-XINPUT_VERSION<24.1' 'X-ABI-XINPUT_VERSION>=25')
 source=(https://downloads.sourceforge.net/project/linuxwacom/$pkgname/$pkgname-$pkgver.tar.bz2)
 # upstream only provides sha1sums - https://sourceforge.net/projects/linuxwacom/files/xf86-input-wacom/
-sha1sums=('544e209c2265ca239674dc59493bef0053ffc65c')
+sha1sums=('15721d4391f9cb2c92c8cf232cf2af7d052bcd13')
 validpgpkeys=('6DD4217456569BA711566AC7F06E8FDE7B45DAAC') # Eric Vidal
 
 build() {
